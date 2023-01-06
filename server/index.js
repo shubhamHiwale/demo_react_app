@@ -11,5 +11,5 @@ app.listen(8080, (req, res) => {
   app.get("*", (req, res) => {
     res.sendFile(path.resolve(__dirname, "client", "build", "index.html"));
   });
-  console.log("server running...");
+  console.log("server running ok...");
 });
